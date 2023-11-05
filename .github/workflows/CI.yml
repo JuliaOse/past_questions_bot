@@ -37,8 +37,8 @@ jobs:
 
     - name: Unit tests
       run: |
-        python -m pytest -v tests/test_scraper_unit.py
+        python -m pytest -v /tests/test_scraper_unit.py
 
     - name: Integration tests
       run: |
-        python -m pytest -v tests/test_scraper_integration.py
+        python -m pytest -v /tests/test_scraper_integration.py
